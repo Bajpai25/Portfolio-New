@@ -3,10 +3,10 @@
 export const data=[
     {
         id:1,
-        name:"Netflix Prototype",
-        image:"./netflix.png",
-        github:"https://github.com/Bajpai25/tasks",
-        live:"https://netflixclone-gamma-five.vercel.app/ ",
+        name:"Stylis Ecommerce Store",
+        image:"./stylis.png",
+        github:"https://github.com/Bajpai25/ecom__frontend",
+        live:"https://stylis2024.netlify.app",
     },
     {
         id:2,
@@ -70,6 +70,12 @@ export const data=[
         image:"./hotel.png",
         github:"https://github.com/Bajpai25/restaurant-app",
         live:"https://restaurant-site-c3367.web.app ",
+    },{
+        id:11,
+        name:"Netflix Clone",
+        image :"./netflix.png",
+        github:"https://github.com/Bajpai25/tasks",
+        live:"https://netflixclone-gamma-five.vercel.app/"
     }
 
 

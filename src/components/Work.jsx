@@ -33,9 +33,11 @@ const Work = () => {
   >
   
     <div className=" opacity-0 hover:opacity-100 md:w-[450px] h-[250px] ">
-      <span className="text-3xl font-sans font-bold text-black tracking-wider  ">
+      <button className='text-white text-lg p-2 h-auto w-auto mt-4 font-semibold rounded-md bg-blue-500'>
+      <span >
         {item.name}
       </span>
+      </button>
       <div className="pt-8 text-center ">
         
         <a href={item.github} target="_blank">
