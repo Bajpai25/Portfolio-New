@@ -13,7 +13,7 @@ export const data=[
         name:"Talent Terrain",
         image:"./employee.png",
         github:"https://github.com/Bajpai25/frontend",
-        live:"https://frontend-bajpai25.vercel.app/",
+        live:"https://frontend-iota-lovat.vercel.app/",
     },
     {
         id:3,
