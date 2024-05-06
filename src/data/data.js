@@ -19,8 +19,8 @@ export const data=[
         id:3,
         name:"SparkScribe",
         image:"./blog.png",
-        github:"https://github.com/Bajpai25/SparkScribe",
-        live:"https://spark-scribe.vercel.app/",
+        github:"https://github.com/Bajpai25/Sparkscribe_frontend",
+        live:"https://sparkscribe.vercel.app/",
     },
     {
         id:4,
