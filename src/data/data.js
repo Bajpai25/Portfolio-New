@@ -6,7 +6,7 @@ export const data=[
         name:"Stylis Ecommerce Store",
         image:"./stylis.png",
         github:"https://github.com/Bajpai25/ecom__frontend",
-        live:"https://stylis2024.netlify.app",
+        live:"https://ecom-frontend-bdk9zrqxf-bajpai25s-projects.vercel.app",
     },
     {
         id:2,
