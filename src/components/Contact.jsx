@@ -1,11 +1,9 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+
 import {
-  FaBars,
-  FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';

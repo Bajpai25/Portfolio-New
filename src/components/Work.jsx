@@ -1,13 +1,9 @@
-import React from 'react';
 import { data } from "../data/data.js";
 
 
 const Work = () => {
-
     
-    const project = data;
-    
-  
+  const project = data;
   return (
     <div name='work' className='w-full h-auto md:h-screen text-gray-300 bg-[#0a192f] md:pt-[650px] pt-[180px]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -40,7 +36,7 @@ const Work = () => {
       </button>
       <div className="pt-8 text-center ">
         
-        <a href={item.github} target="_blank">
+        <a href={item.github} target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -49,7 +45,7 @@ const Work = () => {
           </button>
         </a>
         
-        <a href={item.live} target="_blank">
+        <a href={item.live} target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { images } from "../data/data";
 
 const Skills = () => {
