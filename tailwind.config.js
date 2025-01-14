@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
+      extend: {
+        backdropFilter: {
+          'none': 'none',
+          'blur': 'blur(20px)',
+        },
+      },
   },
+  variants: {
+    extend: {
+      backdropFilter: ['responsive'],
+    },
+  },
+  
   plugins: [],
 }

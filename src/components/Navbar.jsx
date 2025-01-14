@@ -9,7 +9,6 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -45,6 +44,11 @@ const Navbar = () => {
         <li>
           <Link to='contact' smooth={true} duration={500}>
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link to='experience' smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
       </ul>
@@ -123,7 +127,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1kJQMfRj5KS7fGY0ZO5DAKRps86jpWRLN/view?usp=sharing'
+              href='https://drive.google.com/file/d/1MUSK6DMVm9ItuWKKrLnMpdZixAsrIYzC/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
